@@ -1,0 +1,3 @@
+[submodule "static/tentkeep-styles"]
+	path = static/tentkeep-styles
+	url = git@github.com:jwilkey/tentkeep-styles.git

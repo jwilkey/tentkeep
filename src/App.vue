@@ -1,6 +1,6 @@
 <template>
-  <div id="app">
-    <router-view/>
+  <div id="app" class="theme-back">
+    <router-view class="vfull scrolly noscrollx"/>
   </div>
 </template>
 
@@ -11,4 +11,13 @@ export default {
 </script>
 
 <style lang="less">
+@import "../static/tentkeep-styles/common";
+html, body, #app {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+.noscrollx {
+  overflow-x: hidden;
+}
 </style>
