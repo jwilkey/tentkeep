@@ -13,6 +13,10 @@
     </div>
 
     <div class="pad">
+      <div class="text-center">
+        <button @click="contactUs">Contact us. Let's make something. <i class="fas fa-arrow-alt-circle-right"></i></button>
+      </div>
+
       <div class="cost-slogan text-center pad marginb">
         <p>Service options ranging from affordable to premium.</p>
         <p>Always honest. Always excellent.</p>
@@ -95,6 +99,9 @@ export default {
     }
   },
   methods: {
+    contactUs () {
+      this.$router.push('/contact')
+    }
   }
 }
 </script>
